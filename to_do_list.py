@@ -1,5 +1,6 @@
 reminder_list = []
 
+
 def addReminder():
     while (command := input("Add reminder >>> ")) != "exit":
         print("Your command was:", command)
@@ -18,5 +19,9 @@ def delReminder():
         print(i, list)
         i += 1
 
+
 addReminder()
 delReminder()
+
+print(test)
+
